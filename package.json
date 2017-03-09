@@ -1,0 +1,38 @@
+{
+  "name": "node-express-mongo-example",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Simple Node Express server that provides an API using data from Mongo",
+  "repository": "https://github.com/jessamynsmith/node-express-mongo-example",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.12.3",
+    "heroku-ssl-redirect": "0.0.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.5.6",
+    "gulp-replace-task": "^0.1.0",
+    "gulp-util": "^3.0.4",
+    "jasmine-core": "^2.3.4",
+    "jshint": "^2.8.0",
+    "shelljs": "^0.2.6",
+    "yargs": "^3.6.0"
+  },
+  "cacheDirectories": [
+    "node_modules"
+  ],
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "mongo"
+  ]
+}

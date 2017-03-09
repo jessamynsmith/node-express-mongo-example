@@ -23,6 +23,10 @@ app.get('/api/v1/products', function(request, response) {
   response.send(data);
 });
 
+app.get('*', function(req, res) {
+    res.redirect('/api/v1/products');
+});
+
 app.set('port', process.env.PORT || 5000);
 
 app.listen(app.get('port'), function() {

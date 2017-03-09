@@ -11,4 +11,4 @@ deployment:
   production:
     branch: master
     heroku:
-      appname: angular-google-maps-example
+      appname: node-express-mongo-example

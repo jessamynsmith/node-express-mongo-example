@@ -17,9 +17,6 @@
   "cacheDirectories": [
     "node_modules"
   ],
-  "engines": {
-    "node": "5.9.1"
-  },
   "main": "index.js",
   "scripts": {
     "prestart": "npm install",

@@ -1,4 +1,0 @@
----
-test:
-  override:
-    - node_modules/.bin/jshint server.js

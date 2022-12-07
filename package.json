@@ -6,7 +6,7 @@
   "repository": "https://github.com/jessamynsmith/node-express-mongo-example",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.12.3",
+    "express": "^4.17.3",
     "heroku-ssl-redirect": "0.0.3",
     "mongoose": "^4.8.6"
   },

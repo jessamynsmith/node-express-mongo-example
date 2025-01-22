@@ -11,11 +11,11 @@ Like my work? Tip me! https://www.paypal.me/jessamynsmith
 
 Fork on GitHub and clone your fork
 
-npm install
+    npm install
 
-gulp initdb  # ctrl-c once it's finished
+    gulp initdb  # ctrl-c once it's finished
 
-npm start
+    npm start
 
 Browse to the API at: http://127.0.0.1:5000/api/v1/products
 
